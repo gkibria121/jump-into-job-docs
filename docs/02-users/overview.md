@@ -39,6 +39,7 @@ Job seekers are individuals looking for employment opportunities through the pla
 - Manage profile privacy
 - Schedule interviews
 - Bookmark interesting positions
+- Toggle between local and global job listings
 
 ### Constraints
 
@@ -90,6 +91,7 @@ Recruiters manage job postings and handle the recruitment process. There are fou
 - Communicate with candidates
 - Access recruitment analytics
 - Manage hiring pipelines
+- Toggle between local and global job posting
 
 ### Constraints
 
@@ -178,6 +180,7 @@ Unregistered visitors who can access public features of the platform.
 | View Analytics       | Limited    | Full              | Limited              | Limited            | ✗           | Full          | Full           | ✗     |
 | Manage Team          | ✗          | ✓                 | ✗                    | ✗                  | ✗           | ✓             | ✓              | ✗     |
 | System Configuration | ✗          | ✗                 | ✗                    | ✗                  | ✗           | Limited       | Full           | ✗     |
+| Toggle Profile       | ✓          | ✓                 | ✓                    | ✓                  | ✓           | ✓             | ✗              | ✓     |
 
 ## Data Access Levels
 

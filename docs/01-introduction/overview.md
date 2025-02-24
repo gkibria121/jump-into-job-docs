@@ -13,10 +13,12 @@ The Job Portal platform is a comprehensive recruitment solution that connects jo
 ### For Job Seekers
 
 - **Resume Management**: Create, update, and manage multiple resumes
+- **Resume Sharing**: Share your resume as a public profile to showcase your skills
 - **Job Search**: Advanced filtering and search capabilities
 - **Application Tracking**: Monitor application status and history
-- **Personalized Job Recommendations**: AI-powered job matching
+- **Personalized Job Recommendations**: Job listings according to his profile.
 - **Profile Management**: Control privacy settings and professional presence
+- **Profile Scope Control**: Toggle between local and global job listings to customize job search scope.
 
 ### For Recruiters
 
@@ -25,6 +27,7 @@ The Job Portal platform is a comprehensive recruitment solution that connects jo
 - **Communication Tools**: Engage with candidates efficiently
 - **Analytics Dashboard**: Track recruitment metrics and performance
 - **Team Collaboration**: Coordinate with hiring team members
+- **Profile Scope Control**: Toggle between local and global job postings to reach suitable candidates.
 
 ## User Types
 
@@ -92,8 +95,8 @@ The Job Portal platform is a comprehensive recruitment solution that connects jo
 ### Backend
 
 - RESTful API architecture
-- Node.js/Express server
-- PostgreSQL database
+- PHP Laravel/Node.js server
+- PostgreSQL/Mysql database
 - Redis for caching
 - AWS S3 for document storage
 
@@ -101,7 +104,7 @@ The Job Portal platform is a comprehensive recruitment solution that connects jo
 
 - Role-based access control (RBAC)
 - Data encryption at rest and in transit
-- JWT authentication
+- Bearer Token
 - Regular security audits
 
 ## System Constraints

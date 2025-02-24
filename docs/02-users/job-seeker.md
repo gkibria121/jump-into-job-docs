@@ -1,7 +1,3 @@
-### ✅ **Users of the Job Portal and Their Constraints**
-
----
-
 ### **1. Job Seeker**
 
 **Description:**  

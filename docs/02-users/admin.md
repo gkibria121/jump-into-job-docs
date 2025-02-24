@@ -1,28 +1,20 @@
-### ✅ **Users of the Job Portal and Their Constraints**
-
----
-
-### **1. Job Seeker**
+### **4. Admin (Platform Administrator)**
 
 **Description:**  
-A job seeker is an individual who uses the portal to find, apply for, and track job opportunities. They can manage resumes, view job statuses, and receive updates.
+Admins manage the entire job portal, ensuring platform integrity, data security, and user moderation.
 
 **Information They Need:**
 
-- Job listings (local and global).
-- Application status (pending, interviewed, rejected, hired).
-- Featured and recommended jobs.
-- Resume and cover letter management.
-- Bookmark and save jobs for future applications.
-- Notifications about job matches and interview calls.
+- System-wide job and user analytics.
+- User activity logs for audits.
+- Moderation tools (e.g., flagging abusive content).
+- System settings (e.g., feature toggles, maintenance controls).
+- User management (create, suspend, or delete accounts).
 
 **Constraints:**
 
-- **Application Limits:** Cannot apply for the same job multiple times.
-- **Resume Restrictions:** Must create a resume.
-- **Incomplete Profile:** Cannot apply without completing essential profile information.
-- **Privacy:** Cannot view other applicants or employer contact details.
-- **Withdraw Policy:** Can only withdraw applications before reaching the "Interview Scheduled" stage.
-- **Scope Restriction:** Can only view jobs based on their selected local or global preference.
-
----
+- **Access Control:** Restricted to platform-level data; cannot interfere with private applicant-recruiter interactions.
+- **Data Integrity:** Must log all administrative actions for audits.
+- **User Privacy:** Cannot access sensitive user information without authorization.
+- **Compliance:** Must follow legal regulations regarding user data.
+- **System Safeguards:** Limited access to production data without multi-level authorization.
