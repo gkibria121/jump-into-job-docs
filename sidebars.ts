@@ -1,19 +1,6 @@
-import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
-
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
-/**
- * Creating a sidebar enables you to:
- - create an ordered group of docs
- - render a sidebar for each doc of that group
- - provide next/previous navigation
-
- The sidebars can be generated from the filesystem, or explicitly defined here.
-
- Create as many sidebars as you want.
- */
-const sidebars: SidebarsConfig = {
-  docs: [
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
+const sidebars = {
+  documentationSidebar: [
     {
       type: "category",
       label: "Introduction",
@@ -37,18 +24,21 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: "category",
-          label: "Job Seeker Features",
+          label: "Job Seeker",
           items: [
             "features/job-seeker/resume-management",
             "features/job-seeker/job-search",
             "features/job-seeker/application-process",
+            "features/job-seeker/bookmarking",
             "features/job-seeker/job-discovery",
             "features/job-seeker/profile-management",
+            "features/job-seeker/job-discovery",
+            "features/job-seeker/feedback",
           ],
         },
         {
           type: "category",
-          label: "Recruiter Features",
+          label: "Recruiter",
           items: [
             "features/recruiter/job-management",
             "features/recruiter/applicant-management",
@@ -60,22 +50,31 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
-    // Future sections to be added
-    // {
-    //   type: "category",
-    //   label: "API Reference",
-    //   items: [], // To be populated later
-    // },
-    // {
-    //   type: "category",
-    //   label: "Data Models",
-    //   items: [], // To be populated later
-    // },
-    // {
-    //   type: "category",
-    //   label: "Data Flow",
-    //   items: [], // To be populated later
-    // },
+    {
+      type: "category",
+      label: "API Reference",
+      items: [
+        "api-reference/authentication",
+        {
+          type: "category",
+          label: "Job Seeker API",
+          items: [
+            "api-reference/job-seeker-api/resume",
+            "api-reference/job-seeker-api/applications",
+            "api-reference/job-seeker-api/search",
+          ],
+        },
+        {
+          type: "category",
+          label: "Recruiter API",
+          items: [
+            "api-reference/recruiter-api/jobs",
+            "api-reference/recruiter-api/applicants",
+            "api-reference/recruiter-api/analytics",
+          ],
+        },
+      ],
+    },
     {
       type: "category",
       label: "Guides",
@@ -89,4 +88,4 @@ const sidebars: SidebarsConfig = {
   ],
 };
 
-export default sidebars;
+module.exports = sidebars;
