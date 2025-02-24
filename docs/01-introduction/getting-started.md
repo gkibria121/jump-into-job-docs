@@ -221,27 +221,27 @@ After completing initial setup:
 
 ### For Job Seekers
 
-- [Browse Featured Jobs](../features/job-seeker/job-search.md)
-- [Set Up Job Alerts](../features/job-seeker/job-discovery.md)
-- [Optimize Your Resume](../features/job-seeker/resume-management.md)
+- [Browse Featured Jobs](../03-features/job-seeker/job-search.md)
+- [Set Up Job Alerts](../03-features/job-seeker/job-discovery.md)
+- [Optimize Your Resume](../03-features/job-seeker/resume-management.md)
 
 ### For Recruiters
 
-- [Create Job Templates](../features/recruiter/job-management.md)
-- [Set Up Interview Process](../features/recruiter/candidate-evaluation.md)
-- [Configure Analytics](../features/recruiter/insights-reporting.md)
+- [Create Job Templates](../03-features/recruiter/job-management.md)
+- [Set Up Interview Process](../03-features/recruiter/candidate-evaluation.md)
+- [Configure Analytics](../03-features/recruiter/insights-reporting.md)
 
 ### For Company Administrators
 
-- [Manage Team Access](../features/recruiter/team-management.md)
-- [Set Up Workflow](../guides/best-practices.md)
-- [Review Security Settings](../guides/security.md)
+- [Manage Team Access](../03-features/recruiter/team-management.md)
+- [Set Up Workflow](../07-guides/best-practices.md)
+- [Review Security Settings](../07-guides/security.md)
 
 ## Additional Resources
 
-- [API Documentation](../api-reference/authentication.md)
-- [Best Practices Guide](../guides/best-practices.md)
-- [Security Guidelines](../guides/security.md)
-- [Deployment Guide](../guides/deployment.md)
+- [API Documentation](../04-api-reference/authentication.md)
+- [Best Practices Guide](../07-guides/best-practices.md)
+- [Security Guidelines](../07-guides/security.md)
+- [Deployment Guide](../07-guides/deployment.md)
 
 Need more help? Contact our support team at support@jobportal.com or visit our help center.

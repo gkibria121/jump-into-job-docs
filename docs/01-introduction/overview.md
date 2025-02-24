@@ -151,7 +151,7 @@ For detailed setup instructions, see:
 
 - [Getting Started Guide](./getting-started.md)
 - [Architecture Details](./architecture.md)
-- [API Documentation](../api-reference/authentication.md)
+- [API Documentation](../04-api-reference/authentication.md)
 
 ## Best Practices
 

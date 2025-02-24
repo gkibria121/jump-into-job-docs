@@ -240,4 +240,4 @@ Unregistered visitors who can access public features of the platform.
 - [Recruiter Guide](./recruiter.md)
 - [Company Administration](./company.md)
 - [Platform Administration](./admin.md)
-- [Security Guidelines](../guides/security.md)
+- [Security Guidelines](../07-guides/security.md)

@@ -344,7 +344,7 @@ interface Application {
 
 ## Additional Resources
 
-- [API Documentation](../api-reference/authentication.md)
-- [Deployment Guide](../guides/deployment.md)
-- [Security Guidelines](../guides/security.md)
-- [Best Practices](../guides/best-practices.md)
+- [API Documentation](../04-api-reference/authentication.md)
+- [Deployment Guide](../07-guides/deployment.md)
+- [Security Guidelines](../07-guides/security.md)
+- [Best Practices](../07-guides/best-practices.md)
