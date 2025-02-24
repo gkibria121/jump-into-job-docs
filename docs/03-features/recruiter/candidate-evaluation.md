@@ -1,4 +1,9 @@
-### **Candidate Evaluation & Decision Making**
+---
+title: Candidate Evaluation & Decision Making
+description: This section outlines features that help recruiters evaluate applicants, manage interviews, and make collaborative hiring decisions.
+---
+
+### User Stories
 
 1. As a recruiter, I want to compare multiple applicants side by side so that I can make better hiring decisions.
 2. As a recruiter, I want to request additional documents (e.g., portfolios, certifications) from applicants so that I can evaluate their skills thoroughly.

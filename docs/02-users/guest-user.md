@@ -1,7 +1,7 @@
-### **5. Guest User (Unregistered Visitor)**
-
-**Description:**  
-A guest user is an unregistered individual who can browse public job listings and view company profiles.
+---
+title: Guest User (Unregistered Visitor)
+description: A guest user is an unregistered individual who can browse public job listings and view company profiles.
+---
 
 **Information They Need:**
 

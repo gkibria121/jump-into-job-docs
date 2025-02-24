@@ -1,4 +1,9 @@
-### **Insights & Reporting**
+---
+title: Insights & Reporting
+description: This section outlines the reporting and analytics features for recruiters to measure recruitment effectiveness, optimize job postings, and analyze applicant data.
+---
+
+### User Stories
 
 1. As a recruiter, I want to view job performance analytics (e.g., number of applicants, views) so that I can optimize job postings.
 2. As a recruiter, I want to track hiring metrics (e.g., time-to-hire, applicant conversion) so that I can measure recruitment effectiveness.

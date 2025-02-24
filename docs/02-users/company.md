@@ -1,7 +1,7 @@
-### **3. Company (Employer Organization)**
-
-**Description:**  
-A company represents an employer entity managing multiple recruiters and job listings. It controls recruiter access and oversees the hiring process.
+---
+title: Company (Employer Organization)
+description: A company represents an employer entity managing multiple recruiters and job listings. It controls recruiter access and oversees the hiring process.
+---
 
 **Information They Need:**
 

@@ -1,4 +1,9 @@
-### **Job Management**
+---
+title: Job Management
+description: This section outlines the features for recruiters to manage job postings, including posting, updating, categorizing, and tracking job listings.
+---
+
+### User Stories
 
 1. As a recruiter, I want to post a job so that I can call an applicant for an interview.
 2. As a recruiter, I want to update a job so that I can fix mistakes or change job details.

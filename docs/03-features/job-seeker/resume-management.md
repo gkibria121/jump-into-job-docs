@@ -1,4 +1,9 @@
-### **Resume Management**
+---
+title: Resume Management
+description: This section describes how job seekers can create, update, and manage multiple resumes and cover letters. It also includes options for sharing resumes publicly.
+---
+
+### User Stories
 
 1. As a job seeker, I want to create my resume so that I can share it with my friends.
 2. As a job seeker, I want to update my resume by updating my settings so that my current skills are reflected in my resume.

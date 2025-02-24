@@ -1,7 +1,7 @@
-### **1. Job Seeker**
-
-**Description:**  
-A job seeker is an individual who uses the portal to find, apply for, and track job opportunities. They can manage resumes, view job statuses, and receive updates.
+---
+title: Job Seeker
+description: A job seeker is an individual who uses the portal to find, apply for, and track job opportunities. They can manage resumes, view job statuses, and receive updates.
+---
 
 **Information They Need:**
 

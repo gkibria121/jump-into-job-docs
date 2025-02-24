@@ -1,4 +1,9 @@
-### **Communication & Notifications**
+---
+title: Communication & Notifications
+description: This section describes the communication features available to recruiters, including sending interview invitations, receiving notifications, and managing email templates.
+---
+
+### User Stories
 
 1. As a recruiter, I want to send interview invitations via email so that I can communicate with applicants.
 2. As a recruiter, I want to receive notifications when new applicants apply so that I can respond promptly.

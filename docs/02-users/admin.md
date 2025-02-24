@@ -1,7 +1,7 @@
-### **4. Admin (Platform Administrator)**
-
-**Description:**  
-Admins manage the entire job portal, ensuring platform integrity, data security, and user moderation.
+---
+title: Admin (Platform Administrator)
+description: Admins manage the entire job portal, ensuring platform integrity, data security, and user moderation.
+---
 
 **Information They Need:**
 

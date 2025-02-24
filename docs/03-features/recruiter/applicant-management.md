@@ -1,4 +1,9 @@
-### **Applicant Management**
+---
+title: Applicant Management
+description: This section outlines the features available for recruiters to manage applicants, including viewing, filtering, updating statuses, and tracking candidate engagement across job posts.
+---
+
+### User Stories
 
 1. As a recruiter, I want to view applicants who applied for a job so that I can evaluate and shortlist candidates.
 2. As a recruiter, I want to filter applicants by skills, experience, and education so that I can find the most suitable candidates.

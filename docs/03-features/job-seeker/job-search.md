@@ -1,4 +1,9 @@
-### **Job Search & Filtering**
+---
+title: Job Search & Filtering
+description: This section details the job search and filtering capabilities for job seekers, allowing them to customize their job search by status, categories, location, work type, and other preferences.
+---
+
+### User Stories
 
 1. As a job seeker, I want to set my status to local or global so that I can find my desired jobs.
 2. As a job seeker, I want to see featured jobs so that I can apply for them.
