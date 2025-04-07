@@ -153,7 +153,7 @@ To begin using the platform:
 For detailed setup instructions, see:
 
 - [Getting Started Guide](./getting-started.md)
-- [Architecture Details](./architecture.md)
+- [Architecture Details](./architecture.mdx)
 - [API Documentation](../04-api-reference/authentication.md)
 
 ## Best Practices
