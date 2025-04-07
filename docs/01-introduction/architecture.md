@@ -48,12 +48,27 @@ graph TB
         Scheduler[Job Scheduler]
     end
 
-    Client Layer --> ALB
+    %% Fix: Connect individual components instead of entire subgraph
+    Web --> ALB
+    Mobile --> ALB
+    API --> ALB
+
     ALB --> Auth
     Auth --> Rate
-    Rate --> Core Services
-    Core Services --> Data Layer
-    Core Services --> Background Services
+    Rate --> Jobs
+    Rate --> Users
+    Rate --> Search
+    Rate --> Notifications
+    Rate --> Analytics
+
+    Jobs --> PostgreSQL
+    Users --> PostgreSQL
+    Search --> ElasticSearch
+    Notifications --> Redis
+    Analytics --> S3
+
+    Jobs --> Workers
+    Notifications --> Scheduler
 ```
 
 ## Technology Stack

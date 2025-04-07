@@ -8,13 +8,15 @@ const config: Config = {
   title: "Jump Into Job",
   tagline: "Get your dream job.",
   favicon: "img/favicon.ico",
-
+  themes: ["@docusaurus/theme-mermaid"],
   // Set the production url of your site here
   url: "https://jumpintojob.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
-
+  markdown: {
+    mermaid: true,
+  },
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "prospectbd2024", // Usually your GitHub org/user name.
@@ -78,6 +80,12 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    mermaid: {
+      theme: { light: "neutral", dark: "forest" },
+      options: {
+        maxTextSize: 100000,
+      },
     },
   } satisfies Preset.ThemeConfig,
 };
