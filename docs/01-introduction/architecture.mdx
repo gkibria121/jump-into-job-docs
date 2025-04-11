@@ -23,6 +23,7 @@ flowchart TD
     subgraph "Core Services"
         Auth[Auth Service]
         Profile[Profile Service]
+        Resume[Resume Service]
         Jobs[Jobs Service]
         App[Application Service]
         Search[Search Service]
@@ -31,6 +32,7 @@ flowchart TD
 
     APIGW --> Auth
     APIGW --> Profile
+    APIGW --> Resume
     APIGW --> Jobs
     APIGW --> App
     APIGW --> Search
@@ -43,6 +45,7 @@ flowchart TD
 
     Auth --> DBs
     Profile --> DBs
+    Resume --> DBs
     Jobs --> DBs
     App --> DBs
     Search --> DBs
@@ -53,8 +56,10 @@ flowchart TD
         S3[S3 Storage]
     end
 
+    Resume --> S3
     Notif --> Email
     App --> S3
+
 
 ```
 
@@ -254,9 +259,43 @@ For detailed diagram see. [Jump Into Job ](https://www.mermaidchart.com/app/proj
 - Events from all services for data collection
 - `job.viewed`
 - `application.submitted`
-- `search.performed`
+- `search.performed` 
 
-## Infrastructure Components
+### 🆕 8. Resume Service
+
+**Responsibility**: Handles resume-specific operations as a dedicated service decoupled from the profile service.
+
+**Features**:
+
+- Upload and manage multiple resumes
+- Resume versioning and rollback
+- Resume parsing and keyword extraction
+- Resume sharing via public profile links
+- Resume download and preview
+- Resume privacy settings
+
+**Database**: Resume Storage (Metadata in DB, files in S3)
+
+**Events Published**:
+
+- `resume.created`
+- `resume.updated`
+- `resume.shared`
+- `resume.deleted`
+- `resume.parsed`
+
+**Events Consumed**:
+
+- `user.registered`
+- `profile.updated`
+
+**Storage**:
+
+- Metadata stored in Resume DB (PostgreSQL/MySQL)
+- Files stored in AWS S3 or alternative blob storage
+- Extracted data (optional) cached for search/indexing
+
+ ## Infrastructure Components
 
 ### API Gateway
 
