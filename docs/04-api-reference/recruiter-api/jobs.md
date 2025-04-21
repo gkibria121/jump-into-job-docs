@@ -182,5 +182,5 @@ Close a job posting. It will no longer be visible in search results.
 ## Next Steps
 
 - [Application Service](./applications.md)
-- [Search Service](./search.md)
+- [JobBrowser Service](./search.md)
 - [RBAC Configuration](./rbac.md)

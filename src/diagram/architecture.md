@@ -31,7 +31,7 @@ flowchart TD
         ProfileService[Profile Service]
         JobsService[Jobs Service]
         AppService[Application Process Service]
-        SearchService[Search Service]
+        SearchService[JobBrowser Service]
         NotifService[Notification Service]
         AnalyticsService[Analytics Service]
         CommService[Communication Service]

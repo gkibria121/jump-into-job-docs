@@ -1,11 +1,11 @@
 ---
-title: Search Service
+title: JobBrowser Service
 description: Provide filtered, recommended, and featured job listings to job seekers
 ---
 
-# Search Service
+# JobBrowser Service
 
-The **Search Service** is responsible for delivering job listings to **Job Seekers**. It performs advanced filtering, searching, and recommendation of jobs based on the user's profile, preferences, and search queries. This service aggregates data from the **Jobs Service** and enriches the user experience by offering dynamic discovery features.
+The **JobBrowser Service** is responsible for delivering job listings to **Job Seekers**. It performs advanced filtering, searching, and recommendation of jobs based on the user's profile, preferences, and search queries. This service aggregates data from the **Jobs Service** and enriches the user experience by offering dynamic discovery features.
 
 ## Responsibilities
 
