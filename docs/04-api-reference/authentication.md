@@ -32,6 +32,11 @@ All users (Job Seekers, Recruiters, Admins) must authenticate via login or regis
 
 5. **User Logout**  
    Optional invalidation (e.g., token blacklisting or frontend logout).
+6. **Forgot Password**  
+   Users submit their email address via the `/api/forgot-password` endpoint to receive a password reset link.
+
+7. **Password Reset**  
+   After receiving the reset email, users click the link which contains a reset token. They can then submit a new password via the `/api/reset-password` endpoint.
 
 ---
 
@@ -126,6 +131,57 @@ Authorization: Bearer <jwt_token>
 ```json
 {
   "message": "Logout successful"
+}
+```
+
+---
+
+### **Password Reset & Forgot Password**
+
+The **Forgot Password** and **Reset Password** endpoints allow users to recover their accounts and reset their passwords if they have forgotten them. These endpoints involve sending a reset link to the user's email address and verifying the reset process via a token.
+
+---
+
+### `POST /api/forgot-password`
+
+Sends a password reset link to the user's registered email address.
+
+**Request Body**:
+
+```json
+{
+  "email": "john@example.com"
+}
+```
+
+**Response**:
+
+```json
+{
+  "message": "Password reset link has been sent to your email address."
+}
+```
+
+---
+
+### `POST /api/reset-password`
+
+Resets the user's password using a reset token and a new password.
+
+**Request Body**:
+
+```json
+{
+  "token": "reset_token_received_via_email",
+  "new_password": "newSecurePassword123"
+}
+```
+
+**Response**:
+
+```json
+{
+  "message": "Password has been reset successfully."
 }
 ```
 

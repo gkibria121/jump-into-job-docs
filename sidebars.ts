@@ -4,7 +4,11 @@ const sidebars = {
     {
       type: "category",
       label: "Introduction",
-      items: ["introduction/overview", "introduction/getting-started", "introduction/architecture"],
+      items: [
+        "introduction/overview",
+        "introduction/getting-started",
+        "introduction/architecture",
+      ],
     },
     {
       type: "category",
@@ -59,9 +63,10 @@ const sidebars = {
           type: "category",
           label: "Job Seeker API",
           items: [
-            "api-reference/job-seeker-api/resume",
-            "api-reference/job-seeker-api/applications",
             "api-reference/job-seeker-api/search",
+            "api-reference/job-seeker-api/resume",
+            "api-reference/job-seeker-api/profile",
+            "api-reference/job-seeker-api/applications",
           ],
         },
         {
