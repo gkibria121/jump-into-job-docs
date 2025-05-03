@@ -132,6 +132,6 @@ Return a curated list of featured jobs.
 
 ## Related Services
 
-- [Jobs Service](./jobs.md)
-- [Profile Service](./profiles.md)
+- [JobsBrowser Service](./search.md)
+- [Profile Service](./profile.md)
 - [Analytics Service](./analytics.md)

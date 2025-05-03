@@ -319,6 +319,4 @@ Fetch the public view of a resume.
 
 ## Next Steps
 
-- [Cover Letter Management](./cover-letters.md)
 - [Search Service Integration](./search.md)
-- [Sharing & Privacy Settings](./privacy.md)

@@ -59,7 +59,7 @@ const sidebars = {
       label: "API Reference",
       items: [
         "api-reference/authentication",
-        "api-reference/error",
+        "api-reference/errors",
         {
           type: "category",
           label: "Job Seeker API",
