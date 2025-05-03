@@ -27,16 +27,14 @@ All users (Job Seekers, Recruiters, Admins) must authenticate via login or regis
    Authorization: Bearer <jwt_token>
    ```
 
-4. **Accessing Authenticated Routes**  
+4. **Accessing Authenticated Routes**
    Use the `/api/current-user` endpoint to retrieve current user information based on the token.
 
-5. **User Logout**  
+5. **User Logout**
    Optional invalidation (e.g., token blacklisting or frontend logout).
-6. **Forgot Password**  
-   Users submit their email address via the `/api/forgot-password` endpoint to receive a password reset link.
 
-7. **Password Reset**  
-   After receiving the reset email, users click the link which contains a reset token. They can then submit a new password via the `/api/reset-password` endpoint.
+6. **Change Password**
+   The user can change their password using the `/api/change-password` endpoint.
 
 ---
 
@@ -62,7 +60,7 @@ Registers a new user.
 ```json
 {
   "message": "Registration successful",
-  "token": "eyJ0eXAiOiJKV1QiLCJhbGci..."
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGci... "
 }
 ```
 
@@ -136,21 +134,16 @@ Authorization: Bearer <jwt_token>
 
 ---
 
-### **Password Reset & Forgot Password**
+### `POST /api/change-password`
 
-The **Forgot Password** and **Reset Password** endpoints allow users to recover their accounts and reset their passwords if they have forgotten them. These endpoints involve sending a reset link to the user's email address and verifying the reset process via a token.
-
----
-
-### `POST /api/forgot-password`
-
-Sends a password reset link to the user's registered email address.
+Allows a user to change their password.
 
 **Request Body**:
 
 ```json
 {
-  "email": "john@example.com"
+  "current_password": "securePassword123",
+  "new_password": "newSecurePassword456"
 }
 ```
 
@@ -158,30 +151,7 @@ Sends a password reset link to the user's registered email address.
 
 ```json
 {
-  "message": "Password reset link has been sent to your email address."
-}
-```
-
----
-
-### `POST /api/reset-password`
-
-Resets the user's password using a reset token and a new password.
-
-**Request Body**:
-
-```json
-{
-  "token": "reset_token_received_via_email",
-  "new_password": "newSecurePassword123"
-}
-```
-
-**Response**:
-
-```json
-{
-  "message": "Password has been reset successfully."
+  "message": "Password has been changed successfully."
 }
 ```
 
@@ -222,3 +192,13 @@ Access is enforced via user roles encoded within the JWT:
 - [RBAC Configuration](./rbac.md)
 - [API Errors & Responses](./errors.md)
 - [Frontend Integration Guide](../03-guides/authentication-guide.mdx)
+
+In this updated version:
+
+- The **Change Password** endpoint (`POST /api/change-password`) has been added.
+- The **Forgot Password** and related endpoints have been removed.
+- The overall structure and flow for JWT-based authentication are kept intact.
+
+```
+
+```

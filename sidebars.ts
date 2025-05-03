@@ -59,6 +59,7 @@ const sidebars = {
       label: "API Reference",
       items: [
         "api-reference/authentication",
+        "api-reference/error",
         {
           type: "category",
           label: "Job Seeker API",
@@ -74,9 +75,15 @@ const sidebars = {
           label: "Recruiter API",
           items: [
             "api-reference/recruiter-api/jobs",
+            "api-reference/recruiter-api/profile",
             "api-reference/recruiter-api/applicants",
             "api-reference/recruiter-api/analytics",
           ],
+        },
+        {
+          type: "category",
+          label: "Company API",
+          items: ["api-reference/company-api/service"],
         },
       ],
     },
